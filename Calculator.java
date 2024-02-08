@@ -18,10 +18,18 @@ float subtraction(float a,float b){
  float  division(float a,float b){
     return (a/b);
  }
+ float  square(float side){
+   return (side*side);
+}
+
+float  cube(float side){
+   return (side*side*side);
+}
 
 public static void  main (String args[]){
    float a = 10;
    float b = 5;
+   float side =25;
   Calculator calc = new Calculator();
   float add_result = calc.addition(a,b);
   System.out.println("Result of addition is :"+add_result);
@@ -35,6 +43,12 @@ public static void  main (String args[]){
   float div_result = calc.division(a,b);
   System.out.println("Result of division is :"+div_result);
 
+float squ_result = calc.square(side);
+System.out.println("Result of square is :"+squ_result);
+
+float cub_result = calc.cube(side);
+
+System.out.println("Result of cube is :"+cub_result);
 
 }
 }
