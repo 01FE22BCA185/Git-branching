@@ -30,6 +30,7 @@ public static void  main (String args[]){
    float a = 10;
    float b = 5;
    float side =25;
+   
   Calculator calc = new Calculator();
   float add_result = calc.addition(a,b);
   System.out.println("Result of addition is :"+add_result);
